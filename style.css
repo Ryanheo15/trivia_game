@@ -1,0 +1,46 @@
+/* ---------- GENERAL ----------------- */
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html, body {
+  heigth:100%;
+  width:100%;
+}
+
+main {
+  height:100vh;
+  width:100%;
+  background-color:#A4DFDA;
+}
+
+
+/* ---------- INDEX ----------------- */
+.index_main {
+  padding:200px;
+}
+
+.main_img_col {
+  margin-top:90px;
+}
+
+.main_title::after {
+  content:"";
+  background-color:#ffffff;
+  height:5px;
+  width:55%;
+  display:block;
+  margin-top:10px;
+}
+
+.play_btn {
+  background-color: #00B0FF !important;
+  border:none;
+}
+
+/* ---------- GAME ----------------- */
+.question {
+  margin-top:200px;
+}
